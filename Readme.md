@@ -8,7 +8,7 @@ The simple introduction of git command.
 
 ## Command
 
-###1. Set user configuration
+### 1. Set user configuration
 ```
 git config --global user.name "<user>"
 ```
@@ -24,7 +24,7 @@ e.g. git config --global user.name "kctoayo88@gmail.com"
 Using `git config --list` to check.  
 
 
-###2. Initialize git
+### 2. Initialize git
 ```
 cd <folder>  
 
@@ -32,7 +32,7 @@ git init
 ```
 
 
-###3. Submit changes
+### 3. Submit changes
 ```
 git add . (all files)  
 
@@ -44,7 +44,7 @@ git push
 
 ```
 
-###4. Branch
+### 4. Branch
 Beginning
 ```
 git branch  (checking branch)
@@ -80,7 +80,7 @@ git push origin <branch name>
 
 ```
 
-###4. Tracking  
+### 4. Tracking  
 ```
 git status  (checking status)  
 
@@ -89,16 +89,16 @@ git log
 ```
 
 
-###5. Clone (first time)
+### 5. Clone (first time)
 ```
 git clone <repo>
 ```
 
 
-###6. Update
+### 6. Update
 ```
 git pull
-``
+```
 
 
 ## Reference
