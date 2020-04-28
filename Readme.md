@@ -38,13 +38,11 @@ git add . (all files)
 
 git commit -m 'comment'  
 
-git remote add <repo> <url>
-
 git push
 ```
 
 ### 4. Branch
-Beginning
+Begin
 ```
 git branch  (checking branch)
 ```
@@ -86,13 +84,13 @@ git log
 ```
 
 
-### 5. Clone (first time)
+### 5. Clone the online repo to local repo
 ```
 git clone <repo>
 ```
 
 
-### 6. Update
+### 6. Update local repo
 ```
 git pull
 ```
