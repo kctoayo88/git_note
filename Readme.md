@@ -8,7 +8,7 @@ The simple introduction of git command.
 
 ## Command
 
-1. Set user configuration
+###1. Set user configuration
 ```
 git config --global user.name "<user>"
 ```
@@ -24,7 +24,7 @@ e.g. git config --global user.name "kctoayo88@gmail.com"
 Using `git config --list` to check.  
 
 
-2. Initialize git
+###2. Initialize git
 ```
 cd <folder>  
 
@@ -32,7 +32,7 @@ git init
 ```
 
 
-3. Submit changes
+###3. Submit changes
 ```
 git add . (all files)  
 
@@ -44,7 +44,7 @@ git push
 
 ```
 
-4. Branch
+###4. Branch
 Beginning
 ```
 git branch  (checking branch)
@@ -52,7 +52,8 @@ git branch  (checking branch)
   
 Create a new branch
 ```
-git branch (-b) <branch name>
+git branch (-b) <branch name>  
+
 git checkout <branch name> (chane HEAD to this branch)
 ```
 
@@ -74,11 +75,12 @@ git merge <branch name> (merge the designated branch to HEAD branch)
 Remote the branch
 ```
 git remote  
+
 git push origin <branch name>
 
 ```
 
-4. Tracking  
+###4. Tracking  
 ```
 git status  (checking status)  
 
@@ -87,13 +89,13 @@ git log
 ```
 
 
-5. Clone (first time)
+###5. Clone (first time)
 ```
 git clone <repo>
 ```
 
 
-6. Update
+###6. Update
 ```
 git pull
 ``
@@ -101,11 +103,4 @@ git pull
 
 ## Reference
 
-[1] Andreas ten Pas, Marcus Gualtieri, Kate Saenko, and Robert Platt. [**Grasp Pose Detection in Point 
-Clouds**](http://arxiv.org/abs/1706.09911). The International Journal of Robotics Research, Vol 36, Issue 13-14, 
-pp. 1455 - 1473. October 2017.
-
-[2] Marcus Gualtieri, Andreas ten Pas, Kate Saenko, and Robert Platt. [**High precision grasp pose detection in dense 
-clutter**](http://arxiv.org/abs/1603.01564). IROS 2016. 598-605.
-
-[3] Andreas ten Pas. [**GPD**](https://github.com/atenpas/gpd)
+[1] [Git command introduction blog](https://ithelp.ithome.com.tw/users/20119923/ironman/2232)
