@@ -41,7 +41,6 @@ git commit -m 'comment'
 git remote add <repo> <url>
 
 git push
-
 ```
 
 ### 4. Branch
@@ -77,7 +76,6 @@ Remote the branch
 git remote  
 
 git push origin <branch name>
-
 ```
 
 ### 4. Tracking  
@@ -85,7 +83,6 @@ git push origin <branch name>
 git status  (checking status)  
 
 git log  
-
 ```
 
 
