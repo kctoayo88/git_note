@@ -51,7 +51,7 @@ Create a new branch
 ```
 git branch (-b) <branch name>  
 
-git checkout <branch name> (chane HEAD to this branch)
+git checkout <branch name> (change HEAD to this branch)
 ```
 
 Change the branch name
